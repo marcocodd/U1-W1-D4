@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="Divheader">
+        <img id="LogoID" src="./assets/img/logo.svg" />
+        <h2 class="h2">EPICODE - IL BLOG DEI DEVELOPERS</h2>
+        <ul>
+          <li class="nostyleitem"><h2>Home</h2></li>
+          <li class="nostyleitem"><h2>Articoli</h2></li>
+          <li class="nostyleitem"><h2>Lavora con Noi</h2></li>
+        </ul>
+      </div>
+    </header>
+
+    <main id="MainID">
+      <h1 class="h1">Come creare un template per i post</h1>
+
+      <p>
+        <i class="fas fa-edit"></i> di mario rossi -
+        <i class="fas fa-clock"></i> pubblicato il 25-10-2020
+      </p>
+
+      <p>
+        La prima cosa da fare è suddividere in blocchi logici la pagina,
+        identificando le parti comuni da applicare a tutte le pagine
+      </p>
+      <p>Le varie aree saranno quindi suddivise in:</p>
+      <ul>
+        <li>Contenuti di intestazione del tag &lt;header&gt;</li>
+        <li>Contenuti centrali variabili del tag &lt;main&gt;</li>
+        <li>
+          Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;
+        </li>
+      </ul>
+      <p>
+        Formattazione del codice, il testo dell'articolo dovrà essere formattato
+        per identificare tutte le parti da selezionare con i CSS. Perciò i passi
+        saranno:
+      </p>
+      <ol>
+        <li>
+          Progettare su carta il markup finale, assegnando ad ogni specifico
+          testo il tag appropriato
+        </li>
+        <li>
+          Scrivere l Html dai tag esterni a quelli interni e dall'alto verso il
+          basso
+        </li>
+        <li>Applicare gli stili CSS</li>
+      </ol>
+      <p>
+        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la
+        diffusione pressochè totale.
+      </p>
+      <table class="tabella">
+        <tr class="trtitoli">
+          <td class="tdtabella">Anno</td>
+          <td class="tdtabella">% Utilizzo</td>
+          <td class="tdtabella">Browsers</td>
+        </tr>
+
+        <tr>
+          <td>Riga 2</td>
+          <td>Riga 2</td>
+          <td>Riga 2</td>
+        </tr>
+        <tr>
+          <td class="td3">Riga 3</td>
+          <td class="td3">Riga 3</td>
+          <td class="td3">Riga 3</td>
+        </tr>
+        <tr>
+          <td>Riga 4,</td>
+          <td>Riga 4</td>
+          <td>Riga 4</td>
+        </tr>
+        <tr>
+          <td class="td3">Riga 5</td>
+          <td class="td3">Riga 5</td>
+          <td class="td3">Riga 5</td>
+        </tr>
+      </table>
+      <p>
+        Un test di validazione potrà essere fatto tramite il
+        <a>tool online</a> dedicato allo scopo. Una volta ottimizzato il tutto,
+        avremo raggiunto il nostro obiettivo ed essere stati dei veri developers
+        come loro:
+      </p>
+      <iframe
+        width="450"
+        height="300"
+        src="https://www.youtube.com/embed/JG0n0xRfdac?si=NKKn2rneEE-JoyqX"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <form>
+        <h2>Novità</h2>
+        <p>
+          vuoi essere sempre aggiornato su altre novità dei blog? Iscriviti alla
+          nostra newsletter:
+        </p>
+
+        <input type="email" placeholder="Inserisci la tua Email" />
+        <button>Iscriviti!</button>
+      </form>
+    </main>
+  </body>
+</html>
